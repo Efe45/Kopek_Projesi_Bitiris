@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+
+      <main>
+        {% block content %}
+        <form action="{{url_for('dog_detect')}}" method="post" class="creat-form">
+            <div class="form__card">
+                <img class="card__img" src="../static/img/post_icon.png" width="250" height="250" alt="post_icon">
+                <div class="form__inputs">
+                    <label for="file">
+                        <input class="form__input" type="file" name="file" id="file" accept=".png,.jpeg,.jpg" required >
+                    </label>
+                    
+                </div>
+                
+                <button class="file__button">Algıla</button>
+            </div>
+        </form>
+        {% endblock %}
+      </main>
+</body>
+</html>

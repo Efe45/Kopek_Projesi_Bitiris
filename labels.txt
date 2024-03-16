@@ -1,0 +1,10 @@
+0 Akbas coban kopegi
+1 coban kopegi
+2 alman coban kopegi
+3 Amerikan Tilki tazısı
+4 bloodhound
+5 Golden retriever
+6 Norwegian Elkhound
+7 pitbull
+8 schnoodle
+9 Yorkipoo
